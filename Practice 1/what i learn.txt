@@ -1,0 +1,1 @@
+if you want to make the all card be fixed on zoom out or zoom-in make everything in px
