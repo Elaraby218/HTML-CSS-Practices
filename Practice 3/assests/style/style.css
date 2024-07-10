@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(95, 148, 95);
+    background-image: url('\\Practice 3\\assests\\images\\pngegg.png');
+    background-repeat: no-repeat;
+}
+::selection{
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 148, 95);
+}
+
+.box{
+    max-width: 500px;
+    width: 100%;
+
+}
+.box .search-box{
+    position: relative;
+    border-radius: 40px;
+    height: 50px;
+    max-width: 50px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    background-color:rgb(133, 167, 133); 
+    transition: .5s ease-out;
+}
+#check:checked ~ .search-box{
+    max-width: 480px;
+}
+.box .search-box input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    padding: 0 0 0 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: rgb(95, 148, 95);
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.box .search-box .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    line-height: 50px;
+    color:rgb(133, 167, 133); ;
+    background-color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    transition: .5s ease-out;
+}
+#check:checked ~ .search-box .icon{
+    color: rgb(255, 255, 255);
+    background-color: rgb(133, 167, 133);
+}
