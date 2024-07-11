@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+
+}
+body{
+    background-color: rgb(245, 231, 247);
+}
+::selection{
+    color: whitesmoke;
+    background-color: blueviolet;
+}
+.continer{
+    display: flex;
+    max-width: 80%;
+    min-width: 40%;
+    width: 1300px;
+    height: 700px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    margin-top: 7%;
+}
+.contact{
+   width: 25%;
+   min-width: 20%;
+   padding: 40px;
+   border-radius: 10px 0 0 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   background-color:whitesmoke ;
+   position: relative;
+   overflow: hidden;
+}
+.contact::after{
+    position: absolute;
+    content: "";
+    top: 20%;
+    right: 0;
+    background-color: rgb(199, 198, 198);
+    width: 5px;
+    border-radius: 10px;
+    height: 60%;
+    overflow: hidden;
+}
+.contact .con{
+    text-align: center;
+}
+.contact .con i{
+    color: blueviolet;
+    font-size: 40px;
+}
+.contact .con h1{
+ padding-top: 10px
+}
+.contact .con h5{
+    color: rgb(167, 165, 165) ;
+}
+
+.feedback{
+    background-color: whitesmoke ;
+    width: 70%;
+    border-radius: 0 10px 10px 0 ;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    overflow: hidden;
+}
+.feedback .para {
+    width: 95%;
+    height: 20%;
+    background-color:whitesmoke ;
+    overflow: hidden;
+}
+.feedback .para h1 {
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.feedback .para h3 {
+    color: rgb(167, 167, 167);
+}
+
+.feedback .input-fields {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.feedback .input-fields .one input{
+    margin-top: 20px;
+}
+.one input , 
+.two input ,
+.three textarea{
+    width: 100%;
+    background-color: rgb(245, 231, 247);
+    color: rgb(80, 80, 80);
+    font-weight: 600;
+    height: 6vh;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.three textarea{
+    height: 190px;
+    resize: none;
+    padding-top: 10px;
+}
+.three textarea::placeholder{
+    position: absolute ;
+    top: 0;
+    padding-top: 10px;
+}
+.one input:focus ,
+.two input:focus,
+.three textarea:focus{
+    outline: 1px solid blueviolet;
+}
+.feedback .buttons button{
+    width: 20%;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: blueviolet;  color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s all;
+    overflow: hidden;
+}
+.feedback .buttons button:hover{
+    background-color: rgb(174, 131, 214);
+}
