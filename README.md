@@ -27,9 +27,13 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________
 
 # Practice 4 : Feedback Form 
-### Original Design &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Clone
+### Original Design
 <div style="display: flex; flex-direction: row; gap: 20 px;">
   <video src="https://github.com/Elaraby218/HTML-CSS-Practices/assets/152742814/d3a8a48c-90ea-4676-b104-73aa5d0f1b4c" alt="Original Design" width="300" height="300">
-  <video src="https://github.com/Elaraby218/HTML-CSS-Practices/assets/152742814/e1f81294-9639-4f04-80f2-8a596d122a85" alt="My Clone" width="300" height="300">
+</div>
+    
+### My clone 
+<div style="display: flex; flex-direction: row; gap: 20 px;">
+   <video src="https://github.com/Elaraby218/HTML-CSS-Practices/assets/152742814/e1f81294-9639-4f04-80f2-8a596d122a85" alt="My Clone" width="300" height="300">
 </div>
 _______________________________________________________________________________________________________________
