@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+::selection{
+    background-color: whitesmoke;
+    color: black;
+}
+nav{
+    position: fixed;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+nav .nav-bar {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+nav .nav-bar .logo a{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: none;
+}
+nav .nav-bar ul{
+    display: inline-flex;
+    gap: 10px;
+    
+}  
+nav .nav-bar li{
+    list-style: none ; 
+}
+nav .nav-bar li a {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    transition: .2s all ease-in;
+}
+nav .nav-bar li a:hover{
+    background-color: whitesmoke ;
+    color: black;
+} 
+
+.img{
+    background-image: url('../images/img.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: .4;
+    position: absolute;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    height: 89.5vh;
+    position: absolute;
+    top: 100px;
+}
+main .words{
+    width: 40%;
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+.l1 , 
+.l2{
+    text-decoration: none;
+    padding: 15px 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.l2{
+    background-color: whitesmoke;
+    color: black;
+    outline: 2px solid whitesmoke;
+}
+.l1{
+    border: 2px solid whitesmoke;
+    transition: .3s all ease-in-out;
+}
+.l1:hover{
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+
+
