@@ -66,3 +66,11 @@ This project is a practice exercise in cloning an existing design using HTML and
 </div>
 <hr>
 <hr>
+
+# Practice 7 : Loading Spinner
+<div style="display: flex; flex-direction: row; gap: 20 px;">
+   <video src="https://github.com/user-attachments/assets/8fcf3426-5e9a-4430-82ae-10c5520cc308"alt="My Clone" width="300" height="300">
+</div>
+<hr>
+<hr>
+
