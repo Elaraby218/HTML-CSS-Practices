@@ -73,4 +73,16 @@ This project is a practice exercise in cloning an existing design using HTML and
 </div>
 <hr>
 <hr>
+     
+# Practice 8 : Footer Design
+### Original Design
+<div style="display: flex; flex-direction: row; gap: 20 px;">
+  <video src="https://github.com/user-attachments/assets/eb995299-5a6d-4049-abcf-c076d650c5a4" alt="My Clone" width="300" height="300">
+</div>
 
+### My clone 
+<div style="display: flex; flex-direction: row; gap: 20 px;">
+   <video src="https://github.com/user-attachments/assets/8b50dbac-a8a7-45ee-83ae-c211c22da316" alt="My Clone" width="300" height="300">
+</div>
+<hr>
+<hr>
