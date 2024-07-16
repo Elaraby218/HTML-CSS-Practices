@@ -5,7 +5,9 @@ This project is a practice exercise in cloning an existing design using HTML and
 
 ## Practices
 
-### Practice 1: Profile Card Clone
+<hr><hr>
+
+# Practice 1: Profile Card Clone
 <table>
   <tr>
     <th>Original Design</th>
@@ -16,8 +18,9 @@ This project is a practice exercise in cloning an existing design using HTML and
     <td><img src="https://github.com/Elaraby218/HTML-CSS-Practices/assets/152742814/c75650ad-c49b-499e-ba85-e92605c2c102" alt="My Clone" width="300" height="300"></td>
   </tr>
 </table>
+<hr><hr>
 
-### Practice 2: Login Form Design
+# Practice 2: Login Form Design
 <table>
   <tr>
     <th>Original Design</th>
@@ -28,8 +31,9 @@ This project is a practice exercise in cloning an existing design using HTML and
     <td><img src="https://github.com/Elaraby218/HTML-CSS-Practices/assets/152742814/e4de08f5-21de-4b21-a017-c6fc6f719eeb" alt="My Clone" width="300" height="300"></td>
   </tr>
 </table>
+<hr><hr>
 
-### Practice 3: Search Bar
+# Practice 3: Search Bar
 <table>
   <tr>
     <th>My Clone</th>
@@ -40,8 +44,9 @@ This project is a practice exercise in cloning an existing design using HTML and
     </td>
   </tr>
 </table>
+<hr><hr>
 
-### Practice 4: Feedback Form
+# Practice 4: Feedback Form
 <table>
   <tr>
     <th>Original Design</th>
@@ -56,8 +61,9 @@ This project is a practice exercise in cloning an existing design using HTML and
     </td>
   </tr>
 </table>
+<hr><hr>
 
-### Practice 5: Sidebar
+# Practice 5: Sidebar
 <table>
   <tr>
     <th>Original Design</th>
@@ -72,8 +78,9 @@ This project is a practice exercise in cloning an existing design using HTML and
     </td>
   </tr>
 </table>
+<hr><hr>
 
-### Practice 6: Simple Website Design
+# Practice 6: Simple Website Design
 <table>
   <tr>
     <th>Original Design</th>
@@ -88,8 +95,9 @@ This project is a practice exercise in cloning an existing design using HTML and
     </td>
   </tr>
 </table>
+<hr><hr>
 
-### Practice 7: Loading Spinner
+# Practice 7: Loading Spinner
 <table>
   <tr>
     <th>My Clone</th>
@@ -100,8 +108,9 @@ This project is a practice exercise in cloning an existing design using HTML and
     </td>
   </tr>
 </table>
+<hr><hr>
 
-### Practice 8: Footer Design
+# Practice 8: Footer Design
 <table>
   <tr>
     <th>Original Design</th>
