@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+::selection{
+     background-color: #ffffff;
+     color: #10182F;;
+}
+.footer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1280px;
+    width: 95%;
+    background: #10182F;
+    border-radius: 10px;
+    padding: 30px;
+}
+.footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background: #10182F;
+    padding: 20px;
+    color: whitesmoke;
+}
+.footer .row .col h2{
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.footer .row .col li{
+    list-style: none;
+}
+.footer .row .col li a{
+    color: rgb(187, 185, 185);
+    text-decoration: none;
+    line-height: 40px;
+    font-weight: 400;
+    transition: .3s all ease-in-out;
+}
+.footer .row .col li a:hover{
+    color: whitesmoke;
+}
+
+.sub input,
+.sub button{
+    height: 40px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+}
+.col p{
+    color: rgb(187, 185, 185);
+}
+.sub input{
+    padding: 5px;
+    background-color: #10182F;
+    border: 1px solid rgb(187, 185, 185);
+    outline: none;
+    color: white;
+    width: 200px;
+}
+.sub input::placeholder{
+    color: white;
+    font-weight: 100;
+}
+.sub button{
+    width: 100px;
+    font-weight: bold;
+}
+.sub button:hover{
+    color: white;
+    background-color: #10182F;
+    border: 1px solid rgb(187, 185, 185);
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    color : rgb(187, 185, 185);
+}
+.social i:hover{
+    color: white;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+}
