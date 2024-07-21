@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.123);
+}
+
+.cont{
+    display: flex;
+}
+#form-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100vh;
+    background-color: rebeccapurple;
+    border-radius: 0 30px 30px 0;
+    box-shadow: 0 0 10px 5px rgba(51, 3, 99, 0.253);
+}
+
+#form-div .frm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+input{
+    width: 200px;;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(114, 110, 116);
+    box-shadow: 0 0 10px 5px rgba(51, 3, 99, 0.253);
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px 5px rgba(51, 3, 99, 0.253);
+}
+button:hover{
+    background-color: rgb(214, 178, 248);
+    transition: .3s all ease-in-out;
+}
+
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 79%;
+    max-height: 92vh;
+    background-color: rgba(0, 0, 0, 0.034) ;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.137);
+    border-radius: 30px;
+    margin: 35px ;
+    padding: 20px;
+    overflow: auto;
+}
