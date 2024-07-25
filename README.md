@@ -125,3 +125,15 @@ This project is a practice exercise in cloning an existing design using HTML and
     </td>
   </tr>
 </table>
+<hr><hr>
+
+# Practice 9: Shape Generator 
+<table>
+  <tr>
+    <td>
+      <video src="https://github.com/user-attachments/assets/1a76c1b5-8a22-4fa4-bb92-fb7e614041a6" controls width="300" height="300"></video>
+    </td>
+  </tr>
+</table>
+
+
