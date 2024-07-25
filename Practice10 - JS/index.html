@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assests/styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <title>Users REG</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <form action="/indexT.html" method="get" class="my-form" id="frm">
+                 <label for="fName">First Name</label>
+                 <input type="text"  placeholder="Enter your first name"   required id="fName" name="fName" value="">
+     
+                 <label for="sName">Second Name</label>
+                 <input type="text"  placeholder="Enter your second name"  required id="sName" name="sName" value="">
+     
+                 <label for="email">Email</label>
+                 <input type="email" placeholder="Enter your email"        required id="email" name="email" value="">
+     
+                 <label for="pNumber">Phone Number</label>
+                 <input type="tel" placeholder="Enter your phone number"   required id="pNumber" name="pNum" value=""> 
+     
+                 <label for="dep">Department</label>
+                 <input type="text" placeholder="Enter your department"    required id="dep" name="department" value="">
+
+                 <div class="btns">
+                     <button type="submit" id="rgBtn">Regeister</button>
+                     <button type="reset">Reset</button>
+                 </div>
+
+                 
+                </form>
+            </div>
+        <div class="img-png">
+            <img src="/assests/images/imgg.png" alt="">
+        </div>
+    </div>
+
+    <script src="/assests/scripts/main_form.js"></script>
+</body>
+</html>
