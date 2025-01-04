@@ -136,4 +136,16 @@ This project is a practice exercise in cloning an existing design using HTML and
   </tr>
 </table>
 
+<hr><hr>
+
+# Practice 10: CRUD Operations using JS 
+<table>
+  <tr>
+    <td>
+      <video src="https://github.com/user-attachments/assets/b0c5b8d6-d426-48d3-982f-b48c6ba7b11d" controls width="300" height="300"></video>
+    </td>
+  </tr>
+</table>
+
+
 
